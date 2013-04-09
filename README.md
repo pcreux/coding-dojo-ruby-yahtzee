@@ -1,8 +1,11 @@
 # Kata Yahtzee
 
-http://codingdojo.org/cgi-bin/wiki.pl?KataYahtzee
+[HTML test results](http://htmlpreview.github.io/?http://github.com/pcreux/coding-dojo-ruby-yahtzee/blob/master/spec_results.html)
 
 ## About this Kata
+
+http://codingdojo.org/cgi-bin/wiki.pl?KataYahtzee
+
 This problem is based on Ruby Quiz #19
 (http://rubyquiz.com/quiz19.html). The kata takes about 20 minutes with
 practice and 2 hours in a dojo setting.
