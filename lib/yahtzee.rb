@@ -1,12 +1,21 @@
 def ones(roll)
-  i = 0;
-  ones_count = 0;
-  while (i < roll.size()) do
-    if roll[i] == 1
-      ones_count += 1;
-    end
-    i += 1;
-  end
-
-  return ones_count;
+  numbers(roll,1)
 end
+
+def twos(roll)
+  return numbers(roll,2)
+end
+
+def threes(roll)
+  return numbers(roll,3)
+end
+
+def numbers(roll,dice)
+  roll.count(dice) * dice
+end
+
+def pair(roll)
+  pairs = roll.select { |dice| roll.count(dice) >= 2 }
+  pairs.max * 2
+end
+
