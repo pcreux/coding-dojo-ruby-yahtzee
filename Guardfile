@@ -1,3 +1,3 @@
 guard 'rspec', focus_on_failed: true do
-  watch(%r{.*\.rb$})
+  watch(%r{.*}) { 'spec' }
 end
